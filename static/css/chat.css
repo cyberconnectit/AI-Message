@@ -8,7 +8,7 @@
 }
 
 .full-chat-block {
-    width: 1425px;
+    width: 1750px;
     background: white;
     text-align: center;
     overflow: auto;
@@ -19,8 +19,6 @@
 
 .outer-container {
     min-height: 800px;
-    bottom: 0%;
-    position: relative;
 }
 
 .chat-container {
