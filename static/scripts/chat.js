@@ -35,7 +35,15 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hi, Welcome to your virtual AI IT Assistant"
+    let firstMessage = "Hello! 👋️ 
+I'm Fred the Cyber Connect IT Bot and I'm here to try to answer your questions,
+    
+How can I help you today
+    
+ To check what services Cyber Connect IT does check out the link:
+ https://cyberconnectit.github.io/main-website/services" 
+
+    
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
