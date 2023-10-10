@@ -19,16 +19,10 @@ function getBotResponse(input) {
         return "Hi there. How can I help you?";
     } 
     else if (input == "Whats your name") {
-        return "My name is AI";
-    } 
-    else if (input == "whats your name") {
-        return "My name is AI, whats your name?";
-    } 
-    else if (input == "my name is") {
-        return "Nice to meet you, How can I help you today?";
+        return "My name is Fred, How can I help you ?";
     } 
     else if (input == "goodbye") {
-        return "Talk to you later!";
+        return "Thank you for talking to Fred the Cyber Connect IT Bot.";
     } 
     else if (input == "thanks") {
         return "Your welcome";
