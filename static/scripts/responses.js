@@ -4,7 +4,7 @@ function getBotResponse(input) {
         return "Hello there. How can I help you?";
     } 
     else if (input == "Hello") {
-        return "Hello there. How can I help you?";
+        return "Go to <a href="https://www.google.com">Google</a>";
     } 
     else if (input == "Hi") {
         return "Hi there. How can I help you?";
